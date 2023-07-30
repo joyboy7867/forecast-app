@@ -1,0 +1,258 @@
+body {
+    
+    overflow-x: hidden;
+    height: 100%;
+    background-image: url(766853848.mp4);
+    background-repeat: no-repeat;
+}
+.title{
+    background-color: #000000;
+    margin-top: 0;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card0 {
+    width: 94%;
+}
+.cityinput{
+    width: 20%;
+    height: 30px;
+    margin-top: 4%;
+    background-color: #042641;
+    text-align: center;
+    text-decoration: solid;
+    border-radius: 30px;
+    
+}
+.sidetop{
+    position: absolute;
+    background-color: #fcf8f855;
+    width: 49%;
+    height: 600px;
+    top:20%;
+    left: 40%;
+    border-radius: 30px;
+    box-shadow: 2px 4px black;
+    
+}
+.sidetop1{
+    width: 100%;
+   
+    
+    
+    display: flex;
+}
+.hours{
+    width: 20%;
+    text-align: center;
+    overflow: scroll;
+    height: 27%;
+    margin-left: 4%;
+    margin-top: 2%;
+    background-color: #2196F3;
+    border-radius: 40px;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+.seprate{
+    background-color: #2195f381;;
+    width: 100%;
+    padding-bottom: 4%;
+    margin-bottom: 5%;
+}
+.block{
+    background-color: #2196F3;
+    width: 20%;
+    height: 20%;
+    padding-top: 2%;
+    text-align: center;
+    border-radius: 40px;
+    margin-top: 2%;
+    margin-left: 4%;
+    align-content: center;
+}
+.block:hover{
+    width: 25%;
+    height: 35%;
+}
+
+.cityinput1{
+    width: 5%;
+    height: 30px;
+    
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    text-decoration: solid;
+    border: #042641;
+    border-spacing: 15px;
+    border-radius: 10px;
+    
+}
+
+.card1 {
+    background-image: linear-gradient(#2196F3, #81D4FA);
+    padding: 30px 20px 30px 50px;
+    margin-left: 6%;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+}
+
+.large-font {
+    font-size: 70px;
+    font-family: Arial;
+}
+
+.fa-sun-o {
+    font-size: 22px;
+}
+
+.card2 {
+    background-color: #607D8B;
+    padding: 0px 0px 40px 40px;
+}
+
+input {
+    background-color: #607D8B;
+    padding: 24px 0px 12px 0px !important;
+    width: 80%;
+    box-sizing: border-box;
+    border: none !important;
+    border-bottom: 1px solid #CFD8DC !important;
+    font-size: 16px !important;
+    color: #fff !important;
+}
+
+input:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid #fff !important;
+    outline-width: 0;
+    font-weight: 400;
+}
+
+::placeholder {
+    color: #B0BEC5 !important;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #B0BEC5 !important;
+}
+
+::-ms-input-placeholder {
+    color: #B0BEC5 !important;
+}
+
+.fa-search {
+    color: #607D8B;
+    background-color: #E1F5FE;
+    font-size: 20px;
+    padding: 20px;
+    width: 20%;
+    cursor: pointer;
+}
+
+.light-text {
+    color: #B0BEC5;
+}
+
+.suggestion:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.line {
+    height: 1px;
+    background-color: #B0BEC5;
+}
+
+@media (max-width:993px) {
+    .card1 {
+        padding-left: 26px;
+    }
+    .sidetop{
+        position: absolute;
+        left: 1px;
+        width: 100%;
+        height: 1490px;
+        top: 100%;
+        margin-top: 50%;
+        
+       
+    
+        
+    }
+    .sidetop1{
+        width: 100%;
+       text-align: center;
+        display: block;
+        
+        
+    }
+    .block{
+        width: 80%;
+        margin-left: 9%;
+    }
+    .block:hover{
+        width: 90%;
+        margin-left: 4%;
+    }
+    .hours{
+        width: 80%;
+        text-align: center;
+        overflow: scroll;
+        height: 10%;
+        margin-left: 10%;
+        margin-top: 2%;
+        background-color: #2196F3;
+        border-radius: 40px;
+    }
+    .cityinput{
+        width: 80%;
+        height: 50px;
+        margin-top: 2%;
+        margin-left: 8%;
+        background-color: #042641;
+        text-align: center;
+        text-decoration: solid;
+        border-radius: 30px;
+        
+    }
+    .cityinput1{
+        width: 50%;
+        margin-top: 2%;
+        margin-left: 24%;
+    }
+    .footer{
+        text-align: center;
+        margin-top: 1830px;
+        padding-top: 2%;
+        background-color: #000000;
+        color: #607D8B;
+        height: 50px;
+        margin-left: 0%;
+        margin-right: 30%;
+        
+        width: 100%;
+    }
+}
+
+.footer{
+    text-align: center;
+    margin-top: 20%;
+    padding-top: 2%;
+   
+    background-color: #00000000;
+    color: #607D8B;
+    height: 50px;
+    width: 100%;
+}
